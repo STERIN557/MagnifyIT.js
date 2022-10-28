@@ -52,7 +52,7 @@ magnifyInitialize({
 if you have done everything right and you are using this on vanilla js project
 then you will see the magnification happening.
 
-#Customise
+# Customise
 
 also you can customise the style of the preview and lens color
 you can add new styles using the your declared class names
