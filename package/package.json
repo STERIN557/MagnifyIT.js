@@ -1,6 +1,6 @@
 {
   "name": "magnifyit",
-  "version": "1.0.11",
+  "version": "1.0.111",
   "description": "A simple small Javascript Library to create Magnification feature for your frontend, the size of this library is less than 14kb.",
   "main": "src/index.js",
   "scripts": {
