@@ -2,7 +2,7 @@
   "name": "magnifyit",
   "version": "1.0.0",
   "description": "A simple small Javascript Library to create Magnification feature for your frontend, the size of this library is less than 14kb.",
-  "main": "dist/main.js",
+  "main": "src/index.js",
   "scripts": {
     "build1": "",
     "build2": "",
@@ -14,7 +14,9 @@
   },
   "keywords": [
     "magnfiy",
-    "image"
+    "image",
+    "Image Magnification",
+    "commerce website product image Magnification"
   ],
   "author": "Sterin Saji",
   "license": "MIT",
