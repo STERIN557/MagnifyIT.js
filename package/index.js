@@ -12,4 +12,4 @@ function MangnifyIt() {
   };
 }
 
-module.exports = MangnifyIt;
+export { MangnifyIt };
