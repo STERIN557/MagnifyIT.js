@@ -4,23 +4,19 @@ A simple small Javascript Library to create Magnification feature for your front
 This current version works only with vanilla Js but you can try to find way to implement this feature for other frameworks by
 by creating a different branch of this Repository.
 
+![alt text](https://raw.githubusercontent.com/STERIN557/MagnifyIT.js/main/screenshot/Screenshot%202022-10-29%20at%203.48.31%20AM.png)
+
 # How to use it
 
 ```
 npm install magnifyit
-
 ```
 
 create a js file lets say index.js in your root folder make this file a module type when linking in the html file and then
 
 ```
-
 import { MangnifyIt } from './node_modules/magnifyit/index.js';
-
-const { magnifyInitialize, removeBoundary, setMangifyProperties } =
-  MangnifyIt();
-
-
+const { magnifyInitialize, removeBoundary, setMangifyProperties } =  MangnifyIt();
 ```
 
 then for this functionality to work you need to initialize atleast this "magnifyInitialize" function so lets do it
@@ -32,7 +28,6 @@ for example
 <div class="preview"></div>
 <div class="lens"></div>
 <img src="some image link" class="image"/>
-
 ```
 
 here as you can see above that we have written three tags
@@ -46,7 +41,6 @@ magnifyInitialize({
     imagePreviewClassName: 'preview',
     lensClassName: 'lens'
 })
-
 ```
 
 if you have done everything right and you are using this on vanilla js project
@@ -63,7 +57,6 @@ lens and preview
 example
 
 ```
-
 setMangifyProperties({
   lensHeight: 4,
   lensWidth: 4,
@@ -73,8 +66,6 @@ setMangifyProperties({
   previewBorderColor: 'blue',
   previewBorderSize: 2,
 })
-
-
 ```
 
 also if you want that the magnification should stop after
@@ -84,7 +75,6 @@ you just have to type
 
 ```
 removeBoundary(true) // true => enable, false => disable
-
 ```
 
-Please support this Repository, Thank you
+Please support this Repository and Contribute, Thank you...🥹
